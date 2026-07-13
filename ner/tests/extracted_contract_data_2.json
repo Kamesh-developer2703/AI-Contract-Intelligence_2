@@ -1,0 +1,15 @@
+{
+    "organizations": [
+        "Tesla Inc.",
+        "SpaceX Corp."
+    ],
+    "dates": [
+        "January 15, 2025"
+    ],
+    "monetary_values": [
+        "$50,000 USD"
+    ],
+    "metadata": {
+        "total_entities_found": 4
+    }
+}

@@ -1,0 +1,121 @@
+# Week 1 Progress Report
+
+## AI-Powered Contract Intelligence & Risk Scoring System
+
+### Team Lead: Kameshwaran
+
+### Day 1 - Environment Setup & Dataset Analysis
+
+* Set up the project repository and folder structure.
+* Created and managed GitHub branches for team members.
+* Downloaded and explored the CUAD (Contract Understanding Atticus Dataset).
+* Analyzed the dataset structure and identified:
+
+  * 510 commercial contracts
+  * 41 legal clause categories
+  * Contract text stored in context
+  * Clause annotations stored in qas
+* Documented dataset findings for future development.
+
+**Outcome:**
+Successfully understood the structure of the CUAD dataset and prepared the project environment.
+
+---
+
+### Day 2 - Question & Answer Exploration
+
+* Explored the Question-Answer format used in CUAD.
+* Analyzed how clause categories are represented as questions.
+* Extracted contract questions and corresponding answers.
+* Developed scripts to understand and process contract annotations.
+* Created a sample training-ready JSON structure.
+
+**Outcome:**
+Successfully converted raw contract annotations into a structured format suitable for machine learning.
+
+---
+
+### Day 3 - Dataset Preprocessing
+
+* Developed preprocessing scripts to extract:
+
+  * Contract Title
+  * Clause Type
+  * Clause Text
+* Converted all CUAD contracts into structured records.
+* Generated a complete training dataset.
+
+**Results:**
+
+* Contracts Processed: 510
+* Training Records Generated: 6702
+
+**Outcome:**
+Created the primary training dataset required for clause classification.
+
+---
+
+### Day 4 - Dataset Splitting & Statistics
+
+* Generated dataset statistics.
+* Performed Train-Validation split (80:20).
+* Created:
+
+  * train.json
+  * validation.json
+  * dataset_statistics.json
+* Verified data consistency and distribution.
+
+**Outcome:**
+Prepared datasets for model training and evaluation.
+
+---
+
+### Day 5 - RoBERTa Dataset Preparation
+
+* Created label mapping for legal clause categories.
+* Converted clause categories into numerical labels.
+* Prepared training data in RoBERTa-compatible format.
+* Generated:
+
+  * label_mapping.json
+  * roberta_train.json
+* Developed the initial RoBERTa training pipeline structure.
+
+**Results:**
+
+* Total Legal Categories: 41
+* Training Samples Prepared: 5361
+
+**Outcome:**
+Prepared the dataset for transformer-based model training in Week 2.
+
+---
+
+## Week 1 Summary
+
+### Files Created
+
+* sample_training.json
+* training_dataset.json
+* train.json
+* validation.json
+* dataset_statistics.json
+* label_mapping.json
+* roberta_train.json
+
+### Key Achievements
+
+* Analyzed and processed the CUAD dataset.
+* Generated 6702 structured training records.
+* Prepared train and validation datasets.
+* Created label mappings for legal clause classification.
+* Prepared the complete NLP pipeline for RoBERTa model training.
+
+### Next Steps (Week 2)
+
+* RoBERTa Model Fine-Tuning
+* Clause Classification
+* Model Evaluation
+* Confidence Score Generation
+* Risk Detection Pipeline Development

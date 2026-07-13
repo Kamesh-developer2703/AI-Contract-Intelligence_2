@@ -1,0 +1,18 @@
+
+--- Page 1 ---
+SAMPLE SERVICE AGREEMENT
+This Service Agreement ('Agreement') is entered into on January 1, 2026 between ABC
+Technologies Pvt. Ltd. ('Provider') and XYZ Retail Solutions Pvt. Ltd. ('Client').
+1. Services
+Provider shall deliver software development and maintenance services to Client.
+2. Payment Terms
+Client shall pay Provider INR 5,00,000 within 30 days of invoice receipt.
+3. Confidentiality
+Both parties agree to keep confidential information secret and not disclose it to third parties.
+4. Term and Termination
+Either party may terminate this Agreement with 30 days written notice.
+5. Governing Law
+This Agreement shall be governed by the laws of India.
+Authorized Signatories
+ABC Technologies Pvt. Ltd.
+XYZ Retail Solutions Pvt. Ltd.

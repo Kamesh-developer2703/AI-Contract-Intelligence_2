@@ -1,0 +1,11 @@
+{
+    "Liability": 0,
+    "Termination": 1,
+    "Indemnity": 2,
+    "Governing Law": 3,
+    "Confidentiality": 4,
+    "Payment Terms": 5,
+    "Assignment": 6,
+    "Non-Compete": 7,
+    "General Covenants": 8
+}

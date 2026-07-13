@@ -1,0 +1,18 @@
+{
+    "organizations": [
+        "ABC Technologies Pvt. Ltd.",
+        "XYZ Retail Solutions Pvt. Ltd.",
+        "ACCENTURE"
+    ],
+    "dates": [
+        "January 1, 2026",
+        "30 days"
+    ],
+    "monetary_values": [
+        "Provider INR 5,00,000",
+        "$45M"
+    ],
+    "metadata": {
+        "total_entities_found": 7
+    }
+}

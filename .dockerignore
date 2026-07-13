@@ -1,0 +1,36 @@
+# Virtual environments
+leo-venv/
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local secrets and environment files
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+.env.staging
+
+# Version control
+.git/
+.gitignore
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local data, models, and uploads (keep container clean)
+uploads/*
+models/checkpoints/
+data/raw/
+data/processed/
+.pytest_cache/
+.coverage
+htmlcov/

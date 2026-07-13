@@ -1,0 +1,23 @@
+{
+    "ORG": [
+        "ABC Technologies Pvt. Ltd",
+        "ACCENTURE",
+        "Vel tech university",
+        "XYZ Retail Solutions Pvt"
+    ],
+    "DATE": [
+        "30 days",
+        "January 1, 2026",
+        "jan 8 2007"
+    ],
+    "MONEY": [
+        "$45M",
+        "4LPA",
+        "INR 5,00,000"
+    ],
+    "LOCATION": [
+        "Chennai",
+        "India",
+        "Tamil Nadu"
+    ]
+}
